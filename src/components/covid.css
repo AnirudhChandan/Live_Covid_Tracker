@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(17, 12, 12);
+    color: #FAFEFFFF;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+     background-color: #7DDCFFFF;
+     width: calc(76%/3);
+     height: calc(50%/3);
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.card__inner {
+    color: #FAFEFFFF;
+}
+
+.card__small {
+    text-shadow: 3px 3px 4px #132126FF;
+}
+
